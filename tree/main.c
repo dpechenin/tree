@@ -59,8 +59,7 @@ void treeprint(tree *p) {
 
 void searchAll(tree * root, int val)
 {
-    tree *cur = NULL,
-    *tmp = root;
+    tree *cur = NULL, *tmp = root;
     do {
         cur = search(tmp, val);
         if (!cur) break;
